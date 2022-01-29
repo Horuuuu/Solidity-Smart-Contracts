@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementBalance",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Banco/Banco.sol": "Banco"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Banco/Banco.sol": {
+			"keccak256": "0x355d9db28807845f79361265b9d8cafd57cbd664004a993d2ee355d7454da344",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://202296995bdcab38f8215aa0fd747e8a61a5bedc6279bf291890484ead956500",
+				"dweb:/ipfs/QmXmcT34ySVgjPQn3k1sZnTCaVwkqzWJ5PJ8ned7MpBVwh"
+			]
+		}
+	},
+	"version": 1
+}
