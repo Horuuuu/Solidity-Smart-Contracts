@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_precio",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_marca",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_caballos",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_kilometros",
+						"type": "uint32"
+					}
+				],
+				"name": "addCoche",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCoche",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "marca",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "caballos",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "kilometros",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getIdentificadores",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Coches/Coches.sol": "Coches"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Coches/Coches.sol": {
+			"keccak256": "0x0b60525ea830fb33d1f6050d02fdbe41a059aa6ce17508942908d6fad68a89f2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c0cec9e569f953aca8ee2c35e254ff852ba9e832955f71fdea4d06507b73caf4",
+				"dweb:/ipfs/QmQJUEgVZEKne8yRM14dQnQA18YSPDXo9TJxtWiYV8cnDc"
+			]
+		}
+	},
+	"version": 1
+}
