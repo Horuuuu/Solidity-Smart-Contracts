@@ -5,5 +5,5 @@ Ejercicios de Solidity
 <li>Transacciones-2 con modifiers ,require y cambio de dueño del contrato.</li>
 <li>Coches:Registro de coches con arrays,struct y mapping.</li>
 <li>Loteria con pseudoaleatoriedad.</li>
-<li>CriptoToken</li>
+<li>CriptoToken:Token Fungible</li>
 <li>Contrato de venta de utility token</li>
