@@ -7,3 +7,4 @@ Ejercicios de Solidity
 <li>Loteria con pseudoaleatoriedad.</li>
 <li>CriptoToken:Token Fungible</li>
 <li>Contrato de venta de utility token</li>
+<li>Multiples transacciones a diferentes cuentas</li>
