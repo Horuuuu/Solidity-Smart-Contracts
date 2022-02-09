@@ -8,3 +8,4 @@ Ejercicios de Solidity
 <li>CriptoToken:Token Fungible</li>
 <li>Contrato de venta de utility token</li>
 <li>Multiples transacciones a diferentes cuentas</li>
+<li>Enums: ejmplo de enumeraciones active,waiting,ready</li>
