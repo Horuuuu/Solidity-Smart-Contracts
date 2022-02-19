@@ -9,3 +9,4 @@ Ejercicios de Solidity
 <li>Contrato de venta de utility token</li>
 <li>Multiples transacciones a diferentes cuentas</li>
 <li>Enums: ejmplo de enumeraciones active,waiting,ready</li>
+<li>Sistema de votacion</li>
