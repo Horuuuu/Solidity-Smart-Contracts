@@ -10,3 +10,4 @@ Ejercicios de Solidity
 <li>Multiples transacciones a diferentes cuentas</li>
 <li>Enums: ejmplo de enumeraciones active,waiting,ready</li>
 <li>Sistema de votacion</li>
+<li>Sistema de subasta con timer</li>
